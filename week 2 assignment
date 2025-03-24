@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML lists, images, tables and forms</title>
+    </head>
+    <body>
+        <h1>HTML lists</h1>
+        <h3>Ordred Lists</h3>
+        <ol type="i">
+            <li>English</li>
+            <li>Biology</li>
+            <li>Business</li>
+            <li>Kiswahili</li>
+        </ol>
+        <h1>images</h1>
+        <img src="pic.jpg" alt="image of buildings infront of water" width="350" height="550">
+        <h1>Table</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cindy Ayieko</td>
+                    <td>Nairobi</td>
+                    <td>0712345678</td>
+                    <td>Cindyayieko18@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Yalani zuri</td>
+                    <td>Kisumu</td>
+                    <td>0787654321</td>
+                    <td>Yalanizuri@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Zavi Roberts</td>
+                    <td>Kitale</td>
+                    <td>0748428335</td>
+                    <td>Zaviroberts@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Malia Barasa</td>
+                    <td>Mombasa</td>
+                    <td>0707778896</td>
+                    <td>Maliabarasa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Aveleigh White</td>
+                    <td>Nanyuki</td>
+                    <td>0744445555</td>
+                    <td>Aveleighwhite@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Form</h1>
+        <form action="" method="">
+            <label for="Name">Name</label>
+            <input type="text" id=" fullname" name="fullame" placeholder="Enter your full name here" required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">female
+            <br><br>
+            <label for="languages">Languages</label>
+            <input type="checkbox" name="languages" value="English">English
+            <input type="checkbox" name="languages" value="Kiswahili">Kiswahili
+            <input type="checkbox" name="languages" value="French">French
+            <br><br>
+            <label for="age">age</label>
+            <input type="number" name="age" id="age" min="18" max="100" required>
+            <br><br>
+            <button type="submit">submit</button>
+        </form>
+    
+
+    </body>
+    
+    
+</html>
